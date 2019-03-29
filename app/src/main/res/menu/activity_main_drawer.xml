@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+                android:title="Home" />
+        <item
+            android:id="@+id/nav_announcements"
+            android:icon="@drawable/ic_announcement_black_24dp"
+            android:title="Announcements" />
+        <item
+            android:id="@+id/nav_resources"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Resources" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_accessibility_black_24dp"
+            android:title="About us" />
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="About us" />
+    </group>
+
+    <item android:title="Social Media">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_send"
+                android:title="Instagram" />
+        </menu>
+    </item>
+
+</menu>
