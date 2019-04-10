@@ -11,7 +11,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.example.acm.Fragments.Home;
+import com.example.acm.Fragments.Resources;
 import com.example.acm.R;
+
+
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
