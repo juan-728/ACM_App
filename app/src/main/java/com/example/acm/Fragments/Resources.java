@@ -43,7 +43,7 @@ public class Resources extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_resources, container, false);
 
         //Find the results TextView in our XML through Id
-        results = rootView.findViewById(R.id.results);
+        results = rootView.findViewById(R.id.nav_resources);
 
         //LoadJSON is a custom method, we take in the parameter container since this is a fragment.
         LoadJson(container);
